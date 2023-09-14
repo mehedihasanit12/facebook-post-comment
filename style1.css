@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: crimson;
+}
+
+.flex h4 {
+    display: flex;
+    gap: 3px;
+    font-family: arial;
+    font-size: 15px;
+    color: #8b7979;
+}
+
+p {
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 42px;
+    margin-top: 20px;
+    line-height: 39px;
+}
+
+.comment {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    background-color: #ddd;
+    padding: 33px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.comment img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+input.input {
+    width: 293px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+
+button.comment-btn {
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #097CEB;
+    border-radius: 10px;
+}
+
+
+.like-comment-share{
+    display: flex;
+    align-items: center;
+    gap: 57px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.comment2{
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.comment2:hover{
+    text-decoration: underline;
+}
+
+.share{
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.how-like-comment{
+    display: flex;
+    align-items: center;
+    gap: 79px;
+}
+
+.how-like{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.how-comment{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.comment-input{
+    display: flex;
+}
+
+.comment3{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.comment-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment-div{
+    padding: 10px;
+    border-radius: 10px;
+    background: #C6C4C4;
+}
+
+.comment-div h1{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.comment-div p{
+    width: 365px;
+    color: #211E1E;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.button {
+    display: flex;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
