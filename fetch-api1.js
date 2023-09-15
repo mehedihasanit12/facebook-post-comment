@@ -4,6 +4,13 @@ let array = []
 
 function inputComment() {
   const value = input.value
+  if (value == 'clear') {
+    clearcomment()
+    return 0
+  }
+  if (value == 'তুই গাধা') {
+    audioplay()
+  }
   if (value == '') { alert('Enter a comment') }
   else {
   array.push(value) 
@@ -107,4 +114,22 @@ function increasecomment() {
   let howlike1 = howlike + 1;
   console.log(howlike1);
   likeElement.innerText = howlike1;
+}
+
+function enterkey(e) {
+  if (e.keyCode == 13) {
+    console.log('hello')
+    inputComment()
+  }
+}
+
+console.log(input)
+
+console.log(input.addEventListener('keypress', enterkey))
+
+function audioplay(){
+  const sound = document.querySelector(`audio[data-key='1']`)
+  console.log(sound)
+  sound.currentTime = 0;
+  sound.play()
 }
